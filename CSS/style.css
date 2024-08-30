@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.contanar-game{
+    height: 97vh;
+    width: 100%;
+    /* border: 1px solid rgb(224, 14, 14); */
+}
+.cotanar-main{
+    height: 80vh;
+    /* width: 70vw; */
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "game-heading-bar";
+    src: url(JosefinSlab-SemiBold\ \(1\).ttf);
+}
+.game-name{
+    /* font-family: "game-heading-bar"; */
+    /* margin-top: 2rem; */
+    font-size: 3rem;
+    color: rgba(174, 55, 95, 0.758);
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 44, 66);
+    /* border: 1px solid rgba(126, 137, 231, 0.806); */
+}
+.game-box{
+    height: 60vmin;
+    width: 60vmin;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;
+    gap: 1vmin;
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem  rgba(0,0,0, 0.5);
+    font-size:7vmin ;
+    color: #b0453e;
+    background-color: #ffffc7;
+}
+.reset-game-btn{
+    margin-top: 3vmin;
+    padding: 2vmin;
+    font-size: 1rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.restart-game{
+    margin-top: 3vmin;
+    padding: 2vmin;
+    font-size: 1rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+#winner{
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+}
+.msg-contanaer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* display: none; */
+}
+.hidee{
+    display: none;
+} 
