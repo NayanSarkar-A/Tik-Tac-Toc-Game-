@@ -93,3 +93,41 @@ body{
 .hidee{
     display: none;
 } 
+@media (min-width:100px) and (max-width:600px) {
+    #winner{
+        font-size:2rem ;
+        line-height: 3.5rem;
+        
+    }
+    .reset-game-btn ,.restart-game{
+        margin-top: 5rem;
+        font-size: 1.2rem;
+        padding: 0.7rem;
+    }
+    .btn{
+        margin-top: 7rem;
+        font-size: 1.1rem;
+        padding: 0.7rem;
+    }
+    .box{
+        height: 25vmin;
+        width: 25vmin;
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem  rgba(0,0,0, 0.5);
+        font-size:7vmin ;
+        color: #b0453e;
+        background-color: #ffffc7;
+    }
+    .game-box{
+        margin-top: 5rem;
+        height: 80vmin;
+        width: 80vmin;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        align-content: center;
+        gap: 1vmin;
+    }
+}

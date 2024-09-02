@@ -53,7 +53,7 @@ const cheackWinner=()=>{
 
 // step -3 ... after the cheack winner , we have to show the winner 
 const showWinner= (winner)=>{
-    winnerPa.innerText=` cong.. You are win ..!${winner}`;
+    winnerPa.innerText=` Congratulations.. The Winner is ${winner}`;
     msgContanaer.classList.remove("hidee");
     disabledBoxes(); // step-4 are calling here.
 }
